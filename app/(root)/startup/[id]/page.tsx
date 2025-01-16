@@ -6,8 +6,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import markdownit from "markdown-it";
 import { Suspense } from "react";
-import { Skeleton } from "@/components/ui/skeleton";
-import { View } from "@/components/View";
+import { Skeleton } from "@/app/components/ui/skeleton";
+import { View } from "@/app/components/View";
 
 const md = markdownit();
 export const experimental_ppr = true;
